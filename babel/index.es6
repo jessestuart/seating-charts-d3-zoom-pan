@@ -23,8 +23,8 @@ d3.xml(seatingChartUrl).mimeType("image/svg+xml").get((error, xml) => {
   // Instantiate the "outer" SVG element.
   const outerSvg = svgRoot
     .append('svg')
-    .style('width', '100%')
-    .style('height', '100%');
+    .attr('width', 1000)
+    .attr('height', 1000);
 
   // Instantiate a group element in which to contain the seating chart SVG.
   const g = outerSvg
