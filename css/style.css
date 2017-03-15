@@ -1,0 +1,12 @@
+#wrapper {
+  border: 1px solid #e4e4e4;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
